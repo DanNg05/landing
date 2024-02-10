@@ -1,0 +1,32 @@
+.cards {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1, .card-2, .card-3 {
+  width: 200px;
+  height: 250px;
+  padding: 20px 20px;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 0px 0px 5px rgb(230, 230, 230);
+  text-align: center;
+}
+
+.card-1 img, .card-2 img, .card-3 img {
+  width: 150px;
+}
+
+
+.cards-container h2{
+  text-align: center;
+}
+
+.card-1 p, .card-2 p, .card-3 p {
+  color: grey;
+}
+
+.cards-container {
+  padding-bottom: 40px;
+}
